@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Starter Application</title>
+</head>
+<body>
+	<p> Name : Aastha Gupta </p><br>
+	<p> ID :1001215289 </p>
+	<table>
+	<tr>
+		<th></th>
+		<th>Action</th> 
+		<th></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Run RDS</td> 
+		<td><form id="RDS" action="/display_rds" method="GET" enctype = "multipart/form-data">
+		<input type="submit" value="Submit" ></input></form></td>
+  </tr>
+  <tr>
+		<td>2</td>
+		<td>Run Memcache</td> 
+		<td><form id="Memcache" action="/display_memcache" method="GET" enctype = "multipart/form-data">
+		<input type="submit" value="Submit" ></input></form></td>
+  </tr>
+  <tr>
+		<td>3</td>
+		<td>Run RDS for specific queries</td> 
+		<td><form id="RDS_specific" action="/display_limited_rds" method="GET" enctype = "multipart/form-data">
+		<input type="submit" value="Submit" ></input></form></td>
+  </tr>
+  <tr>
+		<td>4</td>
+		<td>Run Memcache for specific queries</td> 
+		<td><form id="Memcache_specific" action="/display_limited_memcache" method="GET" enctype = "multipart/form-data">
+		<input type="submit" value="Submit" ></input></form></td>
+  </tr>
+</table>
+</body>
+</html>
+
